@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="License Information for 11TechWeave - View open source licenses and third-party attributions.">
+    <meta name="theme-color" content="#24216D">
+    <title>License Information | 11TechWeave</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            900: '#24216D',
+                            800: '#2f2c7a',
+                            700: '#7371A0',
+                            600: '#8F7FE9',
+                            500: '#74CAF9',
+                            400: '#a3d9f5',
+                            50: '#f0f9ff',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --color-bg: #ffffff;
+            --color-text: #0f172a;
+            --color-text-secondary: #475569;
+            --color-border: #e2e8f0;
+            --color-surface: #f1f5f9;
+        }
+
+        html.dark {
+            --color-bg: #0f172a;
+            --color-text: #f1f5f9;
+            --color-text-secondary: #cbd5e1;
+            --color-border: #334155;
+            --color-surface: #1e293b;
+        }
+
+        body {
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .legal-page {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .license-box {
+            background-color: var(--color-surface);
+            border: 1px solid var(--color-border);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin: 1.5rem 0;
+        }
+
+        .license-box code {
+            background-color: var(--color-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body class="bg-white dark:bg-slate-900">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
+                    <svg class="h-8 w-8" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" stroke="#74CAF9" stroke-width="3" stroke-dasharray="10 4" opacity="0.8"/>
+                        <path d="M38 75 V25 L30 33" stroke="#24216D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M62 75 V25 L54 33" stroke="#8F7FE9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="font-bold text-brand-900 dark:text-white">TechWeave</span>
+                </div>
+                <a href="index.html" class="text-brand-600 dark:text-brand-400 hover:text-brand-700 dark:hover:text-brand-300 font-medium transition">
+                    ← Back to Home
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="legal-page">
+            <!-- Header -->
+            <div class="mb-12">
+                <h1 class="text-4xl font-bold text-brand-900 dark:text-white mb-4">License Information</h1>
+                <p class="text-slate-600 dark:text-slate-400 text-lg">Last Updated: January 2026</p>
+                <p class="text-slate-600 dark:text-slate-400 mt-4">This page documents all open-source and third-party licenses used in 11TechWeave products and services. We are committed to respecting and complying with all applicable open-source licenses.</p>
+            </div>
+
+            <!-- Content Sections -->
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">1. Frontend Frameworks & Libraries</h2>
+            
+            <h3>Tailwind CSS</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Tailwind CSS is a utility-first CSS framework licensed under the MIT License. You are free to use it in commercial and private projects. <a href="https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE" class="text-brand-600 dark:text-brand-400 hover:underline" target="_blank">View full license</a></p>
+            </div>
+
+            <h3>Font Awesome</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">CC BY 4.0 & MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Font Awesome icons are provided under the Creative Commons Attribution 4.0 International (CC BY 4.0) license for the free version, with MIT license options for commercial use. Attribution is required for free icon usage. <a href="https://fontawesome.com/license" class="text-brand-600 dark:text-brand-400 hover:underline" target="_blank">View full license</a></p>
+            </div>
+
+            <h3>Google Fonts</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">Open Font License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Google Fonts are free and open-source, licensed under the SIL Open Font License (OFL). They can be freely used in both commercial and personal projects. <a href="https://fonts.google.com" class="text-brand-600 dark:text-brand-400 hover:underline" target="_blank">View library</a></p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">2. Backend & Infrastructure</h2>
+            
+            <h3>Node.js</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Node.js runtime environment is licensed under the MIT License. It includes bundled components with their respective licenses.</p>
+            </div>
+
+            <h3>Express.js</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Express.js web framework is licensed under the MIT License, permitting free use in commercial projects with attribution.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">3. Third-Party Services</h2>
+            
+            <h3>Google Analytics</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">Google Terms of Service</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Analytics service governed by Google's Terms of Service. Data collection and usage follows their Privacy Policy and applicable data protection laws.</p>
+            </div>
+
+            <h3>Hotjar</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">Hotjar Terms of Service</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">User behavior analytics service. Usage governed by Hotjar's Terms of Service and Privacy Policy. GDPR compliant.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">4. Database & Data Storage</h2>
+            
+            <h3>MongoDB (Community Edition)</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">SSPL License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">MongoDB Community Edition is licensed under the Server Side Public License (SSPL). Provides free usage with specific commercial terms.</p>
+            </div>
+
+            <h3>PostgreSQL</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">PostgreSQL License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">PostgreSQL is released under the PostgreSQL License, which is similar to BSD license. Free for commercial and non-commercial use.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">5. Development Tools</h2>
+            
+            <h3>Visual Studio Code (Extensions)</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Development extensions used are open-source and licensed under MIT or compatible licenses.</p>
+            </div>
+
+            <h3>Git & GitHub</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">Open Source</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Git is licensed under GPLv2. GitHub Terms of Service govern repository hosting.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">6. JavaScript Libraries</h2>
+            
+            <h3>Common Libraries Used in Our Projects</h3>
+            <ul class="list-disc text-slate-700 dark:text-slate-300">
+                <li><strong>Axios:</strong> MIT License - HTTP client for JavaScript</li>
+                <li><strong>Lodash:</strong> MIT License - Utility library for JavaScript</li>
+                <li><strong>Moment.js / Day.js:</strong> MIT License - Date/time manipulation</li>
+                <li><strong>React (when used):</strong> MIT License - UI library</li>
+                <li><strong>Vue.js (when used):</strong> MIT License - Progressive framework</li>
+                <li><strong>Chart.js:</strong> MIT License - Data visualization</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">7. CSS & Design Resources</h2>
+            
+            <h3>Unsplash Images</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">Unsplash License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">High-quality stock photos used from Unsplash are free to use, even for commercial purposes, without asking permission or providing attribution.</p>
+            </div>
+
+            <h3>Dice Bear Avatars</h3>
+            <div class="license-box">
+                <p class="font-semibold text-brand-900 dark:text-brand-300 mb-2">MIT License</p>
+                <p class="text-slate-700 dark:text-slate-300 text-sm">Avatar generation service providing avatars under MIT License.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">8. License Compliance</h2>
+            <h3>Our Commitment</h3>
+            <p>11TechWeave is committed to:</p>
+            <ul class="list-disc text-slate-700 dark:text-slate-300">
+                <li>Complying with all open-source licenses</li>
+                <li>Providing proper attribution to original creators</li>
+                <li>Respecting intellectual property rights</li>
+                <li>Documenting all third-party components used</li>
+                <li>Regularly auditing dependencies for license compliance</li>
+                <li>Obtaining commercial licenses when required</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">9. License Types Explained</h2>
+            
+            <h3>MIT License</h3>
+            <p class="text-slate-700 dark:text-slate-300">Permissive open-source license. Allows free use, modification, and distribution with minimal restrictions. Attribution is appreciated but not required.</p>
+            
+            <h3>Apache 2.0 License</h3>
+            <p class="text-slate-700 dark:text-slate-300">Permissive license with explicit patent rights. Can be freely used, modified, and distributed commercially.</p>
+            
+            <h3>GPL (GPLv2 / GPLv3)</h3>
+            <p class="text-slate-700 dark:text-slate-300">Copyleft license requiring derivative works to be distributed under the same license. Ensures software remains free.</p>
+            
+            <h3>SSPL (Server Side Public License)</h3>
+            <p class="text-slate-700 dark:text-slate-300">MongoDB's proprietary license. Free for development and some commercial uses, with restrictions on offering as a service.</p>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">10. Modifications & Derivative Works</h2>
+            <p>When we modify open-source software for our projects, we document changes and maintain compliance with applicable licenses. Proprietary modifications are clearly marked and separated from open-source components.</p>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">11. Security & Dependency Updates</h2>
+            <p>We regularly:</p>
+            <ul class="list-disc text-slate-700 dark:text-slate-300">
+                <li>Update dependencies to latest secure versions</li>
+                <li>Monitor security advisories and CVE databases</li>
+                <li>Test updates for compatibility</li>
+                <li>Document license changes during updates</li>
+                <li>Use dependency scanning tools (npm audit, etc.)</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">12. Contact for License Questions</h2>
+            <div class="bg-brand-50 dark:bg-slate-800 p-6 rounded-lg mt-4 border border-brand-200 dark:border-slate-700">
+                <p class="text-slate-700 dark:text-slate-300">
+                    <strong>License & Compliance</strong><br>
+                    Email: compliance@11techweave.com<br>
+                    Phone: +1 (555) 123-4567<br>
+                    Address: Tech District, Suite 1100<br>
+                    Response Time: Within 5 business days
+                </p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-brand-900 dark:text-white">13. Open Source Projects We Contribute To</h2>
+            <p class="text-slate-700 dark:text-slate-300">11TechWeave actively contributes to several open-source projects, including bug fixes, feature enhancements, and documentation improvements. We believe in giving back to the community that provides the tools we depend on.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-900 dark:bg-slate-950 text-slate-300 dark:text-slate-400 py-12 border-t border-brand-800 dark:border-slate-800 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center text-white font-bold text-xl mb-4 cursor-pointer gap-2" onclick="window.location.href='index.html'">
+                        <!-- Footer Logo -->
+                        <svg class="h-10 w-10 brightness-0 invert dark:brightness-100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="42" stroke="#74CAF9" stroke-width="2" opacity="0.4"/>
+                            <path d="M50 8 A 42 42 0 0 1 50 92 A 15 42 0 0 1 50 8" stroke="#74CAF9" stroke-width="1" opacity="0.3" fill="none"/>
+                            <path d="M8 50 H 92" stroke="#74CAF9" stroke-width="1" opacity="0.3"/>
+                            <path d="M15 60 C30 60 35 40 50 40 C65 40 70 60 85 60" stroke="#24216D" stroke-width="6" stroke-linecap="round"/>
+                            <path d="M15 40 C30 40 35 60 50 60 C65 60 70 40 85 40" stroke="#8F7FE9" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        TechWeave
+                    </div>
+                    <p class="text-sm text-brand-50 dark:text-slate-400 opacity-70">Empowering businesses with cutting-edge web technologies.</p>
+                </div>
+                <div>
+                    <h4 class="text-white dark:text-slate-200 font-bold mb-4">Site Map</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html#home" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Home</a></li>
+                        <li><a href="index.html#services" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Services</a></li>
+                        <li><a href="index.html#marketplace" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Marketplace</a></li>
+                        <li><a href="index.html#about" class="hover:text-brand-500 dark:hover:text-brand-400 transition">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white dark:text-slate-200 font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="privacy-policy.html" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" class="hover:text-brand-500 dark:hover:text-brand-400 transition">Terms of Service</a></li>
+                        <li><a href="license-info.html" class="hover:text-brand-500 dark:hover:text-brand-400 transition">License Info</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white dark:text-slate-200 font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-800 dark:bg-slate-700 flex items-center justify-center hover:bg-brand-600 dark:hover:bg-slate-600 transition text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-800 dark:bg-slate-700 flex items-center justify-center hover:bg-brand-600 dark:hover:bg-slate-600 transition text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-800 dark:bg-slate-700 flex items-center justify-center hover:bg-brand-600 dark:hover:bg-slate-600 transition text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-brand-800 dark:border-slate-800 pt-8 text-center text-sm text-brand-50 dark:text-slate-500/50">
+                &copy; 2026 11TechWeave. All rights reserved. <span class="block text-xs mt-2">Building the Invisible into Form</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
